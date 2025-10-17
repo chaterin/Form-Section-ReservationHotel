@@ -1,0 +1,130 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>Reservation Hotel Room</title>
+        <link rel="stylesheet" href="styleform2.css"/>
+    </head>
+    <body>
+        <div class="main-container">
+            
+            <video class="bg-video" width="600px" height="400px" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="HOTEL VISTA.mp4" type="video/mp4"/>
+            </video>
+
+                        <form action="" method="post" enctype="multipart/form-data" class="form">
+                            <div class="form-container">
+                                <h1>Reservation Hotel Room</h1>
+                                
+                                <table cellspacing = "4" cellpading ="4"  style="border-collapse:collapse; width:100%"> 
+                                    <tr>
+                                        <td>
+                                            <fieldset>
+                                                <legend>Personal Data </legend><br />
+                                                
+                                                <tr><label for="name">Name</label></tr>
+                                                <tr><input class="box" type="text" id="nama" name="nama"/></tr><br />
+                                                
+                                                <tr><label for="gender">Gender</label></tr>
+                                                <tr><input class="box" type="text" id="jk" name="jk"/></tr><br />
+                                                
+                                                <tr><label for="email">Email Address</label></tr>
+                                                <tr><input class="box" type="text" id="emailaddrs" name="emailaddrs"/></tr><br />
+                                                
+                                                <tr><label for="noTelp">Telp Number</label></tr>
+                                                <tr><input class="box" type="text" id="noTelpon" name="noTelpon"/></tr><br />
+                                            </fieldset>
+                                    </td>
+                                </tr>
+                    
+                                <tr>
+                                    <td>
+                                        <fieldset>
+                                            <legend>Reservation Room form</legend><br />
+                                            
+                                            <tr><label for="rsvname">Reservation Name</label></tr>
+                                            <tr><input class="box" type="text" id="rsnama" name="rsnama"/></tr><br />
+                                            
+                                            <tr><label for="booking">Booking Date</label></tr>
+                                            <tr><input class="box" type="date" id="book" name="book"/></tr><br />
+                                            
+                                            <tr><label for="room">Room Type</label></tr>
+                                            <tr>
+                                                <select class="box" id="roomType" name="roomType">
+                                                    <option value="deluxe">Deluxe</option>
+                                                    <option value="standard">Standard</option>
+                                                    <option value="superior">Superior</option>
+                                                    <option value="suite">Suite</option>
+                                                    </select>
+                                                </tr><br />
+                                                
+                                                <tr><label for="bed">Bed Type</label></tr>
+                                                <tr>
+                                                <select class="box" id="bedType" name="bedType">
+                                                    <option value="single">Single Bed</option>
+                                                    <option value="double">Double Bed</option>
+                                                    <option value="queen">Queen Bed</option>
+                                                    <option value="king">King Bed</option>
+                                                </select>
+                                            </tr><br />
+                                            
+                                            <tr><label for="breakfast">Breakfast</label></tr>
+                                            <tr>
+                                                <input type="radio" id="with" name="breakfast" value="withBreakfast"/>
+                                                <label for="with"> With Breakfast</label><br/>
+                                                <input type="radio" id="without" name="breakfast" value="withoutbreakfast" />
+                                                <label for="without"> Without Breakfast</label>
+                                            </tr><br />
+                                        </fieldset>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>
+                                        <fieldset>
+                                            <legend>Payment</legend><br />
+                                            
+                                            <tr><label for="checkIn">Check In Date</label></tr>
+                                            <tr><input class="box" type="date" id="checkin" name="checkin"/></tr><br />
+                                            
+                                            <tr><label for="checkOut">Check Out Date</label></tr>
+                                            <tr><input class="box" type="date" id="checkout" name="checkout"/></tr><br />
+                                            
+                                            <tr><label for="payment">Payment Method</label></tr>
+                                            <tr>
+                                                <select class="box" id="paymentmtd" name="paymentmtd">
+                                                    <option value="cash">Cash</option>
+                                                    <option value="credit">Credit Card</option>
+                                                    <option value="transfer">Transfer Bank</option>
+                                                    <option value="qris">Qris</option>
+                                                </select>
+                                            </tr><br />
+                                        </fieldset><br />
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>
+                                        <button type="submit">Submit</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                    </form>
+          
+
+                <div class="image-column">
+                    <div class="scroll-images">
+                        <img src="room-hotel.jpg" alt="room hotel" class="float-img" />
+                        <img src="restorant-hotel.jpg" alt="restoran hotel" class="float-img" />
+                        <img src="fasilitas-hotel.jpg" alt="fasilitas hotel" class="float-img" />
+                    </div>
+                </div>
+        
+    </div>
+    
+</body>
+</html>
